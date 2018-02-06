@@ -1,0 +1,214 @@
+/***** BASE STYLES *****/
+
+body{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+	width: 1224px;
+	margin: 0 auto;
+}
+.half-width {
+	width: 612px;
+	float: left;
+}
+.third-width {
+	width: 408px;
+	float: left;
+}
+
+/***** HEADER *****/
+
+header {
+	height: 550px;
+	background: url('../img/header-background.png');
+	background-size: cover;
+}
+header h1 {
+	padding: 51px 0 0 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 60px;
+	line-height: 0px;
+}
+header h4 {
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	padding: 0px 0px 0px 12px;
+}
+nav {
+	float: left;
+	padding: 51px 108px 0px 22px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	text-transform: none;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+	color: black;
+	padding-right: 82px;
+}
+
+/***** ABOUT *****/
+#about {
+	height: 450px;
+	border-top: 32px solid black;
+	border-right: 79px solid black;
+	border-left: 79px solid black;
+	border-bottom: 32px solid black;
+	background: #fdfdfd;
+}
+#about h2 {
+	font-size: 26px;
+	font-weight: bold;
+	padding: 22px 0px 0px 23px;
+}
+#about p {
+	font-size: 24px;
+	line-height: 39px;
+	font-weight: 600;
+	padding: 0px 50px 0px 23px;
+}
+
+/***** SKILLS *****/
+#skills {
+	height: 650px;
+	background: url('../img/skills-background-photo.png');
+	background-size: cover;
+}
+#skills .full-width {
+	padding: 66px 0;
+}
+.color-container {
+	width: 816px;
+	height: 473px;
+	position: absolute;
+	z-index: 1;
+	margin: 0 0 0 304px;
+}
+#color-div {
+	background: #282828;
+}
+#skills h2 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #fdfdfd;
+	position: absolute;
+	z-index: 2;
+	transform: rotate(-90deg);
+	padding-right: 300px;
+	padding-top: 200px;
+	padding-left: 300px;
+	padding-bottom: 200px
+}
+#skills ul li {
+	display: block;
+	padding-left: 420px;
+	z-index: 3;
+	position: relative;
+}
+#skills ul li img {
+	padding-bottom: 57px;
+	padding-top: 8px;
+}
+#skills h3 {
+	font-size: 24px;
+	line-height: 0;
+	font-weight: 600;
+	color: #fdfdfd;
+	z-index: 4;
+	position: relative;
+}
+#skills p {
+	font-size: 20px;
+	line-height: 28px;
+	color: #fdfdfd;
+	padding-right: 128px;
+	padding-bottom: 41px;
+	z-index: 5;
+	position: relative;
+}
+
+/***** WORK *****/
+#work {
+	height:550px;
+	background-color: #fdfdfd;
+}
+#work .full-width {
+	padding: 54px 0 0 23px;
+}
+#work img {
+	padding-bottom: 30px;
+}
+#work h2 {
+	font-size: 26px;
+	font-weight: bold;
+	padding-left: 23px;
+}
+#work h3 {
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 0px;
+	padding-right: 99px;
+}
+#work img {
+	padding-left: 23px;
+}
+#work p {
+	font-size: 20px;
+	line-height: 32px;
+	text-align: center;
+	padding-right: 99px;
+	padding-left: 23px;
+}
+
+/***** SKILLS *****/
+#skills {
+	height: 650px;
+	background: url('../img/skills-background-photo.png');
+	background-size: cover;
+}
+#skills .full-width {
+	padding: 76px 0;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+	height: 250px;
+	background: black;
+}
+#contact .full width {
+	padding: 18px 0;
+}
+#contact h2 {
+	font-size: 32px;
+	font-weight: bold;
+	color: #fdfdfd;
+	padding-left: 23px;
+	padding-top: 35px;
+}
+#contact h3 {
+	font-size: 26px;
+	font-weight: bold;
+	color: #fdfdfd;
+	padding-left: 23px;
+}
+#contact ul {
+	list-style: none;
+}
+
+#contact ul li {
+	display: inline-block;
+}
+
+#contact ul img {
+	padding: 163px 96px 0px 63px;
+}
